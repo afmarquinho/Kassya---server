@@ -3,6 +3,8 @@ import express, { Application, Request, Response } from "express";
 import cors from "cors";
 import helmet from "helmet";
 import dotenv from "dotenv";
+import userRouter from "./routes/userRoutes";
+
 
 dotenv.config();
 
@@ -17,9 +19,7 @@ app.use(
 );
 app.use(cors());
 app.use(helmet());
-app.get("/", (req:Request , res:Response) => {
-    res.send("hello worlds")
-})
+app.use("/api", userRouter)
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT} `);

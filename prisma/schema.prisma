@@ -13,15 +13,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum Location {
+  UNRECEIVED
+  WAREHOUSE
+}
+
 enum Role {
   ADMIN
   MANAGER
   USER
-}
-
-enum Location {
-  UNRECEIVED
-  WAREHOUSE
 }
 
 model User {
@@ -34,7 +34,8 @@ model User {
   User_password         String
   User_phoneNumber      String
   User_address          String
-  User_registrationDate DateTime // @default(now())
+  User_active           Boolean    @default(true)
+  User_registrationDate DateTime   @default(now())
   Sales                 Sale[]
   Purchase              Purchase[]
 }
@@ -47,7 +48,7 @@ model Customer {
   Customer_email            String   @unique
   Customer_phoneNumber      String
   Customer_address          String
-  Customer_registrationDate DateTime //@default(now())
+  Customer_registrationDate DateTime @default(now())
   Sales                     Sale[]
 }
 
@@ -60,7 +61,7 @@ model Supplier {
   Supplier_phoneNumber      String
   Supplier_city             String
   Supplier_address          String
-  Supplier_registrationDate DateTime //@default(now())
+  Supplier_registrationDate DateTime   @default(now())
   Purchase                  Purchase[]
 }
 
@@ -81,14 +82,14 @@ model Product {
 
 model Sale {
   Sale_id          Int           @id @default(autoincrement())
-  Sale_date        DateTime //@default(now())
+  Sale_date        DateTime      @default(now())
   Sale_code        String?       @unique
   Sale_customer_id Int
   Customer         Customer      @relation(fields: [Sale_customer_id], references: [Customer_id], onDelete: Cascade)
   Sale_totalAmount Decimal
   Sale_userId      Int
   SaleSummary      SalesSummary?
-  SaleDetails      SaleDetails[] //@relation(onDelete: Cascade) 
+  SaleDetails      SaleDetails[]
   User             User          @relation(fields: [Sale_userId], references: [User_id])
 }
 
@@ -108,7 +109,7 @@ model SaleDetails {
 model Purchase {
   Purchase_id            Int             @id @default(autoincrement())
   Purchase_description   String
-  Purchase_date          DateTime // @default(now())
+  Purchase_date          DateTime        @default(now())
   Purchase_totalAmount   Decimal
   Purchase_userId        Int
   Purchase_supplierId    Int
@@ -123,7 +124,7 @@ model Purchase {
 model Warranty {
   Warranty_id           Int         @id @default(autoincrement())
   Warranty_description  String
-  Warranty_date         DateTime // @default(now())
+  Warranty_date         DateTime    @default(now())
   Warranty_saleDetailId Int
   SaleDetail            SaleDetails @relation(fields: [Warranty_saleDetailId], references: [SaleDetail_id])
 }
@@ -150,6 +151,6 @@ model Devolution {
   Dev_saleDetailsId Int
   Dev_quantity      Int
   Dev_unitPrice     Decimal
-  Dev_date          DateTime // @default(now())
+  Dev_date          DateTime    @default(now())
   SaleDetails       SaleDetails @relation(fields: [Dev_saleDetailsId], references: [SaleDetail_id])
 }
