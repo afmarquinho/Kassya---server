@@ -57,7 +57,7 @@ export const getSuppliers = async (req: Request, res: Response) => {
     res.status(200).json({ data: suppliers });
   } catch (error) {
     console.error(error);
-    const err = new Error("Error al obtender proveedores");
+    const err = new Error("Error al obtender los proveedores");
     res.status(500).json({ error: err.message });
   }
 };
