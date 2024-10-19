@@ -38,6 +38,8 @@ model User {
   User_registrationDate DateTime   @default(now())
   Sales                 Sale[]
   Purchase              Purchase[]
+  Supplier              Supplier[]
+  Customer              Customer[]
 }
 
 model Customer {
@@ -50,6 +52,8 @@ model Customer {
   Customer_address          String
   Customer_registrationDate DateTime @default(now())
   Sales                     Sale[]
+  Customer_userId           Int
+  User                      User     @relation(fields: [Customer_userId], references: [User_id])
 }
 
 model Supplier {
@@ -61,8 +65,11 @@ model Supplier {
   Supplier_phoneNumber      String
   Supplier_city             String
   Supplier_address          String
+  Supplier_active           Boolean    @default(true)
   Supplier_registrationDate DateTime   @default(now())
+  Supplier_userId           Int
   Purchase                  Purchase[]
+  User                      User       @relation(fields: [Supplier_userId], references: [User_id])
 }
 
 model Product {

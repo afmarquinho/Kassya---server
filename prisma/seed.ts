@@ -14,15 +14,25 @@ const newSaleDatail = saleDetails.map((item) => ({
   SaleDetail_total: item.SaleDetail_unitPrice * item.SaleDetail_quantity,
 }));
 
-const newUser = users.map(({User_id, ...item})=> item)
-const newCustomers = customers.map(({Customer_id, ...item})=> item)
-const newDevolutions = devolutions.map(({Dev_id, ...item})=> item)
-const newProducts = products.map(({Product_id, ...item})=> item)
-const newPurchases = purchases.map(({Purchase_id, ...item})=> item)
-const newSaleDetails = newSaleDatail.map(({SaleDetail_id, ...item})=> item)
-const newSales = sales.map(({Sale_id, ...item})=> item)
-const newSuppliers = suppliers.map(({Supplier_id, ...item})=> item)
-const newWarranties = warranties.map(({Warranty_id, ...item})=> item)
+const supp = suppliers.map((supplier) => ({
+  ...supplier,
+  Supplier_userId: 10,
+}));
+
+const cust = customers.map((customer) => ({
+  ...customer,
+  Customer_userId: 5,
+}));
+
+const newUser = users.map(({ User_id, ...item }) => item);
+const newCustomers = cust.map(({ Customer_id, ...item }) => item);
+const newDevolutions = devolutions.map(({ Dev_id, ...item }) => item);
+const newProducts = products.map(({ Product_id, ...item }) => item);
+const newPurchases = purchases.map(({ Purchase_id, ...item }) => item);
+const newSaleDetails = newSaleDatail.map(({ SaleDetail_id, ...item }) => item);
+const newSales = sales.map(({ Sale_id, ...item }) => item);
+const newSuppliers = supp.map(({ Supplier_id, ...item }) => item);
+const newWarranties = warranties.map(({ Warranty_id, ...item }) => item);
 
 async function main() {
   try {
@@ -59,7 +69,7 @@ async function main() {
 }
 
 main()
-.catch((e) => {
+  .catch((e) => {
     console.error(e);
     process.exit(1);
   })

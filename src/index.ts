@@ -3,8 +3,8 @@ import express, { Application, Request, Response } from "express";
 import cors from "cors";
 import helmet from "helmet";
 import dotenv from "dotenv";
-import userRouter from "./routes/userRoutes";
-
+import userRouter from "./routes/userRouter";
+import supplierRouter from "./routes/supplierRoutes";
 
 dotenv.config();
 
@@ -19,7 +19,8 @@ app.use(
 );
 app.use(cors());
 app.use(helmet());
-app.use("/api", userRouter)
+app.use("/api/users", userRouter);
+app.use("/api/suppliers", supplierRouter)
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT} `);
