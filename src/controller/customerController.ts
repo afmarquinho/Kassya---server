@@ -39,7 +39,7 @@ export const deleteCustomer = async (req: Request, res: Response) => {
        Customer_id : customerId,
       },
     });
-    res.status(204).json({ data: "Cliente eliminado exitosamente" });
+    res.status(200).json({ data: "Cliente eliminado exitosamente" });
   } catch (error) {
     console.error(error);
     const err = new Error("Error al eliminar el cliente");

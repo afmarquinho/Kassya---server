@@ -39,7 +39,7 @@ export const deleteSupplier = async (req: Request, res: Response) => {
         Supplier_id: supplierId,
       },
     });
-    res.status(204).json({ data: "Proveedor eliminado exitosamente" });
+    res.status(200).json({ data: "Proveedor eliminado exitosamente" });
   } catch (error) {
     console.error(error);
     const err = new Error("Error al eliminar el proveedor");

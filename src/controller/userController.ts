@@ -34,12 +34,12 @@ export const deleteUser = async (req: Request, res: Response) => {
   try {
     const { userId } = req.params;
     const userIdAsNumber = Number(userId);
-    const updatedUser = await prisma.user.delete({
+     await prisma.user.delete({
       where: {
         User_id: userIdAsNumber,
       },
     });
-    res.status(204).json({ data: "Usuario eliminado exitosamente" });
+    res.status(200).json({ data: "Usuario eliminado exitosamente" });
   } catch (error) {
     console.error(error);
     const err = new Error("Error al eliminar el usuario");

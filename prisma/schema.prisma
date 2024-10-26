@@ -118,11 +118,12 @@ model Purchase {
   Purchase_id            Int             @id @default(autoincrement())
   Purchase_description   String
   Purchase_date          DateTime        @default(now())
-  Purchase_totalAmount   Decimal
+  Purchase_totalAmount   Decimal         @default(0)
   Purchase_userId        Int
   Purchase_supplierId    Int
   Purchase_paymentMethod String
   Purchase_dueDate       DateTime
+  Purchase_close         Boolean         @default(false)
   User                   User            @relation(fields: [Purchase_userId], references: [User_id])
   Supplier               Supplier        @relation(fields: [Purchase_supplierId], references: [Supplier_id])
   ExpenseSummary         ExpenseSummary?
