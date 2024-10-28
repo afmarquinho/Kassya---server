@@ -79,7 +79,7 @@ model Product {
   Product_name         String
   Product_description  String
   Product_cost         Decimal
-  Product_price        Decimal
+  Product_price        Decimal @default(0)
   Product_stockQty     Int
   Product_availability Boolean
   Product_location     Location      @default(UNRECEIVED)

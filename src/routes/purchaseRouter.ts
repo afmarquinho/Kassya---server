@@ -15,6 +15,6 @@ router.post("/", createPurchase);
 router.put("/:purchaseId", updatePurchase);
 router.delete("/:purchaseId", deletePurchase);
 router.get("/:purchaseId", getPurchaseById);
-router.put("/:purchaseId", closePurchase);
+router.put("/close/:purchaseId", closePurchase);
 
 export default router;
