@@ -9,59 +9,34 @@ import { suppliers } from "./data/suppliers";
 import { users } from "./data/users";
 import { warranties } from "./data/warranties";
 
-const newSaleDatail = saleDetails.map((item) => ({
-  ...item,
-  SaleDetail_total: item.SaleDetail_unitPrice * item.SaleDetail_quantity,
-}));
-
-const supp = suppliers.map((supplier) => ({
-  ...supplier,
-  Supplier_userId: 10,
-}));
-
-const cust = customers.map((customer) => ({
-  ...customer,
-  Customer_userId: 5,
-}));
-
-const newUser = users.map(({ User_id, ...item }) => item);
-const newCustomers = cust.map(({ Customer_id, ...item }) => item);
-const newDevolutions = devolutions.map(({ Dev_id, ...item }) => item);
-const newProducts = products.map(({ Product_id, ...item }) => item);
-const newPurchases = purchases.map(({ Purchase_id, ...item }) => item);
-const newSaleDetails = newSaleDatail.map(({ SaleDetail_id, ...item }) => item);
-const newSales = sales.map(({ Sale_id, ...item }) => item);
-const newSuppliers = supp.map(({ Supplier_id, ...item }) => item);
-const newWarranties = warranties.map(({ Warranty_id, ...item }) => item);
-
 async function main() {
   try {
     await prisma.user.createMany({
-      data: newUser,
+      data: users,
     });
     await prisma.customer.createMany({
-      data: newCustomers,
+      data: customers,
     });
     await prisma.supplier.createMany({
-      data: newSuppliers,
+      data: suppliers,
     });
     await prisma.purchase.createMany({
-      data: newPurchases,
+      data: purchases,
     });
-    await prisma.product.createMany({
-      data: newProducts,
-    });
+    // await prisma.product.createMany({
+    //   data: products,
+    // });
     await prisma.sale.createMany({
-      data: newSales,
+      data: sales,
     });
     await prisma.saleDetails.createMany({
-      data: newSaleDetails,
+      data: saleDetails,
     });
     await prisma.devolution.createMany({
-      data: newDevolutions,
+      data: devolutions,
     });
     await prisma.warranty.createMany({
-      data: newWarranties,
+      data: warranties,
     });
   } catch (error) {
     console.log(error);

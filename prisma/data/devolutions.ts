@@ -5,7 +5,7 @@ export const devolutions = [
     Dev_saleDetailsId: 10,
     Dev_quantity: 1,
     Dev_unitPrice: 150.0,
-    Dev_date: "2023-01-15T10:00:00Z",
+    Dev_date: "2023-01-15T15:00:00.000Z",
   },
   {
     Dev_id: 2,
@@ -13,7 +13,7 @@ export const devolutions = [
     Dev_saleDetailsId: 25,
     Dev_quantity: 2,
     Dev_unitPrice: 200.0,
-    Dev_date: "2023-02-20T12:30:00Z",
+    Dev_date: "2023-02-20T17:30:00.000Z",
   },
   {
     Dev_id: 3,
@@ -21,7 +21,7 @@ export const devolutions = [
     Dev_saleDetailsId: 35,
     Dev_quantity: 1,
     Dev_unitPrice: 350.0,
-    Dev_date: "2023-03-05T14:00:00Z",
+    Dev_date: "2023-03-05T19:00:00.000Z",
   },
   {
     Dev_id: 4,
@@ -29,7 +29,7 @@ export const devolutions = [
     Dev_saleDetailsId: 45,
     Dev_quantity: 1,
     Dev_unitPrice: 100.0,
-    Dev_date: "2023-04-12T11:20:00Z",
+    Dev_date: "2023-04-12T16:20:00.000Z",
   },
   {
     Dev_id: 5,
@@ -37,7 +37,7 @@ export const devolutions = [
     Dev_saleDetailsId: 55,
     Dev_quantity: 3,
     Dev_unitPrice: 75.0,
-    Dev_date: "2023-05-22T13:15:00Z",
+    Dev_date: "2023-05-22T18:15:00.000Z",
   },
   {
     Dev_id: 6,
@@ -45,7 +45,7 @@ export const devolutions = [
     Dev_saleDetailsId: 65,
     Dev_quantity: 1,
     Dev_unitPrice: 250.0,
-    Dev_date: "2023-06-18T09:45:00Z",
+    Dev_date: "2023-06-18T14:45:00.000Z",
   },
   {
     Dev_id: 7,
@@ -53,7 +53,7 @@ export const devolutions = [
     Dev_saleDetailsId: 75,
     Dev_quantity: 1,
     Dev_unitPrice: 500.0,
-    Dev_date: "2023-07-10T15:20:00Z",
+    Dev_date: "2023-07-10T20:20:00.000Z",
   },
   {
     Dev_id: 8,
@@ -61,7 +61,7 @@ export const devolutions = [
     Dev_saleDetailsId: 85,
     Dev_quantity: 2,
     Dev_unitPrice: 600.0,
-    Dev_date: "2023-08-25T14:10:00Z",
+    Dev_date: "2023-08-25T19:10:00.000Z",
   },
   {
     Dev_id: 9,
@@ -69,7 +69,7 @@ export const devolutions = [
     Dev_saleDetailsId: 95,
     Dev_quantity: 1,
     Dev_unitPrice: 300.0,
-    Dev_date: "2023-09-15T16:45:00Z",
+    Dev_date: "2023-09-15T21:45:00.000Z",
   },
   {
     Dev_id: 10,
@@ -77,7 +77,7 @@ export const devolutions = [
     Dev_saleDetailsId: 100,
     Dev_quantity: 1,
     Dev_unitPrice: 80.0,
-    Dev_date: "2023-10-01T18:00:00Z",
+    Dev_date: "2023-10-01T23:00:00.000Z",
   },
   {
     Dev_id: 11,
@@ -85,7 +85,7 @@ export const devolutions = [
     Dev_saleDetailsId: 30,
     Dev_quantity: 2,
     Dev_unitPrice: 150.0,
-    Dev_date: "2023-07-08T10:30:00Z",
+    Dev_date: "2023-07-08T15:30:00.000Z",
   },
   {
     Dev_id: 12,
@@ -93,7 +93,7 @@ export const devolutions = [
     Dev_saleDetailsId: 60,
     Dev_quantity: 1,
     Dev_unitPrice: 100.0,
-    Dev_date: "2023-06-21T12:40:00Z",
+    Dev_date: "2023-06-21T17:40:00.000Z",
   },
   {
     Dev_id: 13,
@@ -101,7 +101,7 @@ export const devolutions = [
     Dev_saleDetailsId: 55,
     Dev_quantity: 2,
     Dev_unitPrice: 75.0,
-    Dev_date: "2023-05-25T14:00:00Z",
+    Dev_date: "2023-05-25T19:00:00.000Z",
   },
   {
     Dev_id: 14,
@@ -109,7 +109,7 @@ export const devolutions = [
     Dev_saleDetailsId: 45,
     Dev_quantity: 1,
     Dev_unitPrice: 100.0,
-    Dev_date: "2023-04-15T10:50:00Z",
+    Dev_date: "2023-04-15T15:50:00.000Z",
   },
   {
     Dev_id: 15,
@@ -117,6 +117,6 @@ export const devolutions = [
     Dev_saleDetailsId: 10,
     Dev_quantity: 1,
     Dev_unitPrice: 150.0,
-    Dev_date: "2023-01-18T09:15:00Z",
+    Dev_date: "2023-01-18T14:15:00.000Z",
   },
 ];

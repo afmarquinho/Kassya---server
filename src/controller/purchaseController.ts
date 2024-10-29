@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import { prisma } from "../db";
-import { Purchase } from "@prisma/client";
 
 export const createPurchase = async (req: Request, res: Response) => {
   try {
@@ -128,16 +127,17 @@ export const getPurchaseById = async (req: Request, res: Response) => {
         },
         Product: {
           select: {
+            Product_id: true,
             Product_ref: true,
             Product_name: true,
             Product_description: true,
             Product_cost: true,
-            Product_price: true,
-            Product_stockQty: true,
+            Product_qty: true,
           },
         },
       },
     });
+
     res.status(200).json({ data: purchase });
   } catch (error) {
     console.error(error);

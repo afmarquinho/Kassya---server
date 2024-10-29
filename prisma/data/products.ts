@@ -1,4 +1,3 @@
-import { Location } from "@prisma/client";
 export const products = [
   {
     Product_id: 1,
@@ -9,7 +8,7 @@ export const products = [
     Product_price: 900.0,
     Product_stockQty: 50,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 3,
   },
   {
@@ -21,7 +20,7 @@ export const products = [
     Product_price: 25.0,
     Product_stockQty: 150,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 5,
   },
   {
@@ -33,7 +32,7 @@ export const products = [
     Product_price: 60.0,
     Product_stockQty: 100,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 8,
   },
   {
@@ -45,7 +44,7 @@ export const products = [
     Product_price: 400.0,
     Product_stockQty: 30,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 10,
   },
   {
@@ -57,7 +56,7 @@ export const products = [
     Product_price: 70.0,
     Product_stockQty: 80,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 2,
   },
   {
@@ -69,7 +68,7 @@ export const products = [
     Product_price: 150.0,
     Product_stockQty: 40,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 4,
   },
   {
@@ -81,7 +80,7 @@ export const products = [
     Product_price: 120.0,
     Product_stockQty: 60,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 1,
   },
   {
@@ -93,7 +92,7 @@ export const products = [
     Product_price: 35.0,
     Product_stockQty: 120,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 6,
   },
   {
@@ -105,7 +104,7 @@ export const products = [
     Product_price: 15.0,
     Product_stockQty: 200,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 7,
   },
   {
@@ -117,7 +116,7 @@ export const products = [
     Product_price: 30.0,
     Product_stockQty: 90,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 9,
   },
   {
@@ -129,7 +128,7 @@ export const products = [
     Product_price: 90.0,
     Product_stockQty: 40,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 8,
   },
   {
@@ -141,7 +140,7 @@ export const products = [
     Product_price: 180.0,
     Product_stockQty: 70,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 3,
   },
   {
@@ -153,7 +152,7 @@ export const products = [
     Product_price: 700.0,
     Product_stockQty: 20,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 5,
   },
   {
@@ -165,7 +164,7 @@ export const products = [
     Product_price: 400.0,
     Product_stockQty: 25,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 10,
   },
   {
@@ -177,7 +176,7 @@ export const products = [
     Product_price: 200.0,
     Product_stockQty: 45,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 4,
   },
   {
@@ -189,7 +188,7 @@ export const products = [
     Product_price: 35.0,
     Product_stockQty: 100,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 6,
   },
   {
@@ -201,7 +200,7 @@ export const products = [
     Product_price: 500.0,
     Product_stockQty: 15,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 7,
   },
   {
@@ -213,7 +212,7 @@ export const products = [
     Product_price: 300.0,
     Product_stockQty: 35,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 1,
   },
   {
@@ -225,7 +224,7 @@ export const products = [
     Product_price: 450.0,
     Product_stockQty: 20,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 9,
   },
   {
@@ -237,7 +236,7 @@ export const products = [
     Product_price: 350.0,
     Product_stockQty: 15,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 8,
   },
   {
@@ -249,7 +248,7 @@ export const products = [
     Product_price: 1000.0,
     Product_stockQty: 10,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 5,
   },
   {
@@ -261,7 +260,7 @@ export const products = [
     Product_price: 30.0,
     Product_stockQty: 150,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 4,
   },
   {
@@ -273,7 +272,7 @@ export const products = [
     Product_price: 60.0,
     Product_stockQty: 80,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 1,
   },
   {
@@ -285,7 +284,7 @@ export const products = [
     Product_price: 70.0,
     Product_stockQty: 90,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 3,
   },
   {
@@ -297,7 +296,7 @@ export const products = [
     Product_price: 50.0,
     Product_stockQty: 100,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 7,
   },
   {
@@ -309,7 +308,7 @@ export const products = [
     Product_price: 35.0,
     Product_stockQty: 150,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 8,
   },
   {
@@ -321,7 +320,7 @@ export const products = [
     Product_price: 25.0,
     Product_stockQty: 200,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 2,
   },
   {
@@ -333,7 +332,7 @@ export const products = [
     Product_price: 15.0,
     Product_stockQty: 120,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 4,
   },
   {
@@ -345,7 +344,7 @@ export const products = [
     Product_price: 600.0,
     Product_stockQty: 25,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 1,
   },
   {
@@ -357,7 +356,7 @@ export const products = [
     Product_price: 80.0,
     Product_stockQty: 60,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 3,
   },
   {
@@ -369,7 +368,7 @@ export const products = [
     Product_price: 150.0,
     Product_stockQty: 45,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 5,
   },
   {
@@ -381,7 +380,7 @@ export const products = [
     Product_price: 300.0,
     Product_stockQty: 30,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 2,
   },
   {
@@ -393,7 +392,7 @@ export const products = [
     Product_price: 200.0,
     Product_stockQty: 55,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 6,
   },
   {
@@ -405,7 +404,7 @@ export const products = [
     Product_price: 120.0,
     Product_stockQty: 100,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 4,
   },
   {
@@ -417,7 +416,7 @@ export const products = [
     Product_price: 25.0,
     Product_stockQty: 200,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 8,
   },
   {
@@ -429,7 +428,7 @@ export const products = [
     Product_price: 150.0,
     Product_stockQty: 20,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 5,
   },
   {
@@ -441,7 +440,7 @@ export const products = [
     Product_price: 120.0,
     Product_stockQty: 40,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 2,
   },
   {
@@ -453,7 +452,7 @@ export const products = [
     Product_price: 800.0,
     Product_stockQty: 10,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 1,
   },
   {
@@ -465,7 +464,7 @@ export const products = [
     Product_price: 700.0,
     Product_stockQty: 15,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 4,
   },
   {
@@ -477,7 +476,7 @@ export const products = [
     Product_price: 450.0,
     Product_stockQty: 12,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 3,
   },
   {
@@ -489,7 +488,7 @@ export const products = [
     Product_price: 1200.0,
     Product_stockQty: 8,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 2,
   },
   {
@@ -501,7 +500,7 @@ export const products = [
     Product_price: 600.0,
     Product_stockQty: 7,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 5,
   },
   {
@@ -513,7 +512,7 @@ export const products = [
     Product_price: 800.0,
     Product_stockQty: 6,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 6,
   },
   {
@@ -525,7 +524,7 @@ export const products = [
     Product_price: 650.0,
     Product_stockQty: 5,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 1,
   },
   {
@@ -537,7 +536,7 @@ export const products = [
     Product_price: 120.0,
     Product_stockQty: 25,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 4,
   },
   {
@@ -549,7 +548,7 @@ export const products = [
     Product_price: 150.0,
     Product_stockQty: 30,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 3,
   },
   {
@@ -561,7 +560,7 @@ export const products = [
     Product_price: 180.0,
     Product_stockQty: 35,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 5,
   },
   {
@@ -573,7 +572,7 @@ export const products = [
     Product_price: 50.0,
     Product_stockQty: 40,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 6,
   },
   {
@@ -585,7 +584,7 @@ export const products = [
     Product_price: 120.0,
     Product_stockQty: 20,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 1,
   },
   {
@@ -597,7 +596,7 @@ export const products = [
     Product_price: 60.0,
     Product_stockQty: 15,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 2,
   },
   {
@@ -609,7 +608,7 @@ export const products = [
     Product_price: 100.0,
     Product_stockQty: 20,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 3,
   },
   {
@@ -621,7 +620,7 @@ export const products = [
     Product_price: 80.0,
     Product_stockQty: 25,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 4,
   },
   {
@@ -633,7 +632,7 @@ export const products = [
     Product_price: 120.0,
     Product_stockQty: 15,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 5,
   },
   {
@@ -645,7 +644,7 @@ export const products = [
     Product_price: 60.0,
     Product_stockQty: 20,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 6,
   },
   {
@@ -657,7 +656,7 @@ export const products = [
     Product_price: 150.0,
     Product_stockQty: 10,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 1,
   },
   {
@@ -669,7 +668,7 @@ export const products = [
     Product_price: 220.0,
     Product_stockQty: 18,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 2,
   },
   {
@@ -681,7 +680,7 @@ export const products = [
     Product_price: 300.0,
     Product_stockQty: 12,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 3,
   },
   {
@@ -693,7 +692,7 @@ export const products = [
     Product_price: 90.0,
     Product_stockQty: 25,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 4,
   },
   {
@@ -705,7 +704,7 @@ export const products = [
     Product_price: 130.0,
     Product_stockQty: 20,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 5,
   },
   {
@@ -717,7 +716,7 @@ export const products = [
     Product_price: 160.0,
     Product_stockQty: 15,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 6,
   },
   {
@@ -729,7 +728,7 @@ export const products = [
     Product_price: 40.0,
     Product_stockQty: 100,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 1,
   },
   {
@@ -741,7 +740,7 @@ export const products = [
     Product_price: 70.0,
     Product_stockQty: 50,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 2,
   },
   {
@@ -753,7 +752,7 @@ export const products = [
     Product_price: 90.0,
     Product_stockQty: 30,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 3,
   },
   {
@@ -765,7 +764,7 @@ export const products = [
     Product_price: 110.0,
     Product_stockQty: 20,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 4,
   },
   {
@@ -777,7 +776,7 @@ export const products = [
     Product_price: 1200.0,
     Product_stockQty: 8,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 5,
   },
   {
@@ -789,7 +788,7 @@ export const products = [
     Product_price: 500.0,
     Product_stockQty: 15,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 6,
   },
   {
@@ -801,7 +800,7 @@ export const products = [
     Product_price: 1000.0,
     Product_stockQty: 25,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 1,
   },
   {
@@ -813,7 +812,7 @@ export const products = [
     Product_price: 1500.0,
     Product_stockQty: 10,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 2,
   },
   {
@@ -825,7 +824,7 @@ export const products = [
     Product_price: 600.0,
     Product_stockQty: 20,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 3,
   },
   {
@@ -837,7 +836,7 @@ export const products = [
     Product_price: 220.0,
     Product_stockQty: 35,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 4,
   },
   {
@@ -849,7 +848,7 @@ export const products = [
     Product_price: 1200.0,
     Product_stockQty: 5,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 5,
   },
   {
@@ -861,7 +860,7 @@ export const products = [
     Product_price: 150.0,
     Product_stockQty: 50,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 6,
   },
   {
@@ -873,7 +872,7 @@ export const products = [
     Product_price: 40.0,
     Product_stockQty: 30,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 1,
   },
   {
@@ -885,7 +884,7 @@ export const products = [
     Product_price: 80.0,
     Product_stockQty: 20,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 2,
   },
   {
@@ -897,7 +896,7 @@ export const products = [
     Product_price: 250.0,
     Product_stockQty: 15,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 3,
   },
   {
@@ -909,7 +908,7 @@ export const products = [
     Product_price: 180.0,
     Product_stockQty: 10,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 4,
   },
   {
@@ -921,7 +920,7 @@ export const products = [
     Product_price: 30.0,
     Product_stockQty: 50,
     Product_availability: true,
-    Product_location: Location.UNRECEIVED,
+    Product_location: "UNRECEIVED",
     Product_purchaseId: 5,
   },
   {
@@ -933,7 +932,7 @@ export const products = [
     Product_price: 120.0,
     Product_stockQty: 25,
     Product_availability: true,
-    Product_location: Location.WAREHOUSE,
+    Product_location: "WAREHOUSE",
     Product_purchaseId: 6,
   },
 ];

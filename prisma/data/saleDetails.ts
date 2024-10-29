@@ -5,6 +5,7 @@ export const saleDetails = [
     SaleDetail_productId: 45,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 25.5,
+    SaleDetail_total: 51.0,
   },
   {
     SaleDetail_id: 2,
@@ -12,6 +13,7 @@ export const saleDetails = [
     SaleDetail_productId: 17,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 40.99,
+    SaleDetail_total: 40.99,
   },
   {
     SaleDetail_id: 3,
@@ -19,6 +21,7 @@ export const saleDetails = [
     SaleDetail_productId: 12,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 19.99,
+    SaleDetail_total: 79.95999999999999,
   },
   {
     SaleDetail_id: 4,
@@ -26,6 +29,7 @@ export const saleDetails = [
     SaleDetail_productId: 56,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 29.49,
+    SaleDetail_total: 88.47,
   },
   {
     SaleDetail_id: 5,
@@ -33,6 +37,7 @@ export const saleDetails = [
     SaleDetail_productId: 72,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 31.99,
+    SaleDetail_total: 63.98,
   },
   {
     SaleDetail_id: 6,
@@ -40,6 +45,7 @@ export const saleDetails = [
     SaleDetail_productId: 4,
     SaleDetail_quantity: 6,
     SaleDetail_unitPrice: 12.5,
+    SaleDetail_total: 75.0,
   },
   {
     SaleDetail_id: 7,
@@ -47,6 +53,7 @@ export const saleDetails = [
     SaleDetail_productId: 32,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 27.9,
+    SaleDetail_total: 27.9,
   },
   {
     SaleDetail_id: 8,
@@ -54,6 +61,7 @@ export const saleDetails = [
     SaleDetail_productId: 29,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 23.5,
+    SaleDetail_total: 47.0,
   },
   {
     SaleDetail_id: 9,
@@ -61,6 +69,7 @@ export const saleDetails = [
     SaleDetail_productId: 53,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 45.0,
+    SaleDetail_total: 45.0,
   },
   {
     SaleDetail_id: 10,
@@ -68,6 +77,7 @@ export const saleDetails = [
     SaleDetail_productId: 68,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 21.75,
+    SaleDetail_total: 65.25,
   },
   {
     SaleDetail_id: 11,
@@ -75,6 +85,7 @@ export const saleDetails = [
     SaleDetail_productId: 15,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 18.9,
+    SaleDetail_total: 75.59999999999999,
   },
   {
     SaleDetail_id: 12,
@@ -82,6 +93,7 @@ export const saleDetails = [
     SaleDetail_productId: 33,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 33.0,
+    SaleDetail_total: 165.0,
   },
   {
     SaleDetail_id: 13,
@@ -89,6 +101,7 @@ export const saleDetails = [
     SaleDetail_productId: 64,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 22.49,
+    SaleDetail_total: 22.49,
   },
   {
     SaleDetail_id: 14,
@@ -96,6 +109,7 @@ export const saleDetails = [
     SaleDetail_productId: 50,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 24.99,
+    SaleDetail_total: 49.98,
   },
   {
     SaleDetail_id: 15,
@@ -103,6 +117,7 @@ export const saleDetails = [
     SaleDetail_productId: 24,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 39.99,
+    SaleDetail_total: 119.97,
   },
   {
     SaleDetail_id: 16,
@@ -110,6 +125,7 @@ export const saleDetails = [
     SaleDetail_productId: 9,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 15.0,
+    SaleDetail_total: 30.0,
   },
   {
     SaleDetail_id: 17,
@@ -117,6 +133,7 @@ export const saleDetails = [
     SaleDetail_productId: 22,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 17.99,
+    SaleDetail_total: 71.95999999999999,
   },
   {
     SaleDetail_id: 18,
@@ -124,6 +141,7 @@ export const saleDetails = [
     SaleDetail_productId: 47,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 26.5,
+    SaleDetail_total: 26.5,
   },
   {
     SaleDetail_id: 19,
@@ -131,6 +149,7 @@ export const saleDetails = [
     SaleDetail_productId: 36,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 34.99,
+    SaleDetail_total: 174.95,
   },
   {
     SaleDetail_id: 20,
@@ -138,6 +157,7 @@ export const saleDetails = [
     SaleDetail_productId: 63,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 29.99,
+    SaleDetail_total: 29.99,
   },
   {
     SaleDetail_id: 21,
@@ -145,6 +165,7 @@ export const saleDetails = [
     SaleDetail_productId: 5,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 14.75,
+    SaleDetail_total: 44.25,
   },
   {
     SaleDetail_id: 22,
@@ -152,6 +173,7 @@ export const saleDetails = [
     SaleDetail_productId: 20,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 19.49,
+    SaleDetail_total: 38.98,
   },
   {
     SaleDetail_id: 23,
@@ -159,6 +181,7 @@ export const saleDetails = [
     SaleDetail_productId: 13,
     SaleDetail_quantity: 6,
     SaleDetail_unitPrice: 13.9,
+    SaleDetail_total: 83.40000000000001,
   },
   {
     SaleDetail_id: 24,
@@ -166,6 +189,7 @@ export const saleDetails = [
     SaleDetail_productId: 40,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 38.5,
+    SaleDetail_total: 38.5,
   },
   {
     SaleDetail_id: 25,
@@ -173,6 +197,7 @@ export const saleDetails = [
     SaleDetail_productId: 27,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 24.8,
+    SaleDetail_total: 99.2,
   },
   {
     SaleDetail_id: 26,
@@ -180,6 +205,7 @@ export const saleDetails = [
     SaleDetail_productId: 74,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 36.0,
+    SaleDetail_total: 36.0,
   },
   {
     SaleDetail_id: 27,
@@ -187,6 +213,7 @@ export const saleDetails = [
     SaleDetail_productId: 21,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 27.49,
+    SaleDetail_total: 54.98,
   },
   {
     SaleDetail_id: 28,
@@ -194,6 +221,7 @@ export const saleDetails = [
     SaleDetail_productId: 44,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 30.99,
+    SaleDetail_total: 92.97,
   },
   {
     SaleDetail_id: 29,
@@ -201,6 +229,7 @@ export const saleDetails = [
     SaleDetail_productId: 30,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 22.75,
+    SaleDetail_total: 91.0,
   },
   {
     SaleDetail_id: 30,
@@ -208,6 +237,7 @@ export const saleDetails = [
     SaleDetail_productId: 6,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 15.8,
+    SaleDetail_total: 79.0,
   },
   {
     SaleDetail_id: 31,
@@ -215,6 +245,7 @@ export const saleDetails = [
     SaleDetail_productId: 52,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 44.99,
+    SaleDetail_total: 44.99,
   },
   {
     SaleDetail_id: 32,
@@ -222,6 +253,7 @@ export const saleDetails = [
     SaleDetail_productId: 69,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 23.9,
+    SaleDetail_total: 47.8,
   },
   {
     SaleDetail_id: 33,
@@ -229,6 +261,7 @@ export const saleDetails = [
     SaleDetail_productId: 26,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 29.5,
+    SaleDetail_total: 88.5,
   },
   {
     SaleDetail_id: 34,
@@ -236,6 +269,7 @@ export const saleDetails = [
     SaleDetail_productId: 11,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 17.99,
+    SaleDetail_total: 71.95999999999999,
   },
   {
     SaleDetail_id: 35,
@@ -243,6 +277,7 @@ export const saleDetails = [
     SaleDetail_productId: 59,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 24.5,
+    SaleDetail_total: 49.0,
   },
   {
     SaleDetail_id: 36,
@@ -250,6 +285,7 @@ export const saleDetails = [
     SaleDetail_productId: 31,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 33.5,
+    SaleDetail_total: 33.5,
   },
   {
     SaleDetail_id: 37,
@@ -257,6 +293,7 @@ export const saleDetails = [
     SaleDetail_productId: 3,
     SaleDetail_quantity: 6,
     SaleDetail_unitPrice: 13.0,
+    SaleDetail_total: 78.0,
   },
   {
     SaleDetail_id: 38,
@@ -264,6 +301,7 @@ export const saleDetails = [
     SaleDetail_productId: 25,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 21.49,
+    SaleDetail_total: 42.98,
   },
   {
     SaleDetail_id: 39,
@@ -271,6 +309,7 @@ export const saleDetails = [
     SaleDetail_productId: 66,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 28.9,
+    SaleDetail_total: 28.9,
   },
   {
     SaleDetail_id: 40,
@@ -278,6 +317,7 @@ export const saleDetails = [
     SaleDetail_productId: 39,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 22.99,
+    SaleDetail_total: 68.97,
   },
   {
     SaleDetail_id: 41,
@@ -285,6 +325,7 @@ export const saleDetails = [
     SaleDetail_productId: 57,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 31.2,
+    SaleDetail_total: 156.0,
   },
   {
     SaleDetail_id: 42,
@@ -292,6 +333,7 @@ export const saleDetails = [
     SaleDetail_productId: 16,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 19.49,
+    SaleDetail_total: 77.95999999999999,
   },
   {
     SaleDetail_id: 43,
@@ -299,6 +341,7 @@ export const saleDetails = [
     SaleDetail_productId: 1,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 12.75,
+    SaleDetail_total: 38.25,
   },
   {
     SaleDetail_id: 44,
@@ -306,6 +349,7 @@ export const saleDetails = [
     SaleDetail_productId: 28,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 27.99,
+    SaleDetail_total: 55.98,
   },
   {
     SaleDetail_id: 45,
@@ -313,6 +357,7 @@ export const saleDetails = [
     SaleDetail_productId: 73,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 34.99,
+    SaleDetail_total: 34.99,
   },
   {
     SaleDetail_id: 46,
@@ -320,6 +365,7 @@ export const saleDetails = [
     SaleDetail_productId: 14,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 18.0,
+    SaleDetail_total: 90.0,
   },
   {
     SaleDetail_id: 47,
@@ -327,6 +373,7 @@ export const saleDetails = [
     SaleDetail_productId: 48,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 29.75,
+    SaleDetail_total: 29.75,
   },
   {
     SaleDetail_id: 48,
@@ -334,6 +381,7 @@ export const saleDetails = [
     SaleDetail_productId: 62,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 25.5,
+    SaleDetail_total: 51.0,
   },
   {
     SaleDetail_id: 49,
@@ -341,6 +389,7 @@ export const saleDetails = [
     SaleDetail_productId: 18,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 24.0,
+    SaleDetail_total: 72.0,
   },
   {
     SaleDetail_id: 50,
@@ -348,6 +397,7 @@ export const saleDetails = [
     SaleDetail_productId: 71,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 16.99,
+    SaleDetail_total: 67.95999999999999,
   },
   {
     SaleDetail_id: 51,
@@ -355,6 +405,7 @@ export const saleDetails = [
     SaleDetail_productId: 8,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 22.0,
+    SaleDetail_total: 44.0,
   },
   {
     SaleDetail_id: 52,
@@ -362,6 +413,7 @@ export const saleDetails = [
     SaleDetail_productId: 34,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 27.9,
+    SaleDetail_total: 27.9,
   },
   {
     SaleDetail_id: 53,
@@ -369,6 +421,7 @@ export const saleDetails = [
     SaleDetail_productId: 38,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 31.5,
+    SaleDetail_total: 94.5,
   },
   {
     SaleDetail_id: 54,
@@ -376,6 +429,7 @@ export const saleDetails = [
     SaleDetail_productId: 58,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 20.0,
+    SaleDetail_total: 80.0,
   },
   {
     SaleDetail_id: 55,
@@ -383,6 +437,7 @@ export const saleDetails = [
     SaleDetail_productId: 60,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 33.0,
+    SaleDetail_total: 165.0,
   },
   {
     SaleDetail_id: 56,
@@ -390,6 +445,7 @@ export const saleDetails = [
     SaleDetail_productId: 19,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 14.99,
+    SaleDetail_total: 29.98,
   },
   {
     SaleDetail_id: 57,
@@ -397,6 +453,7 @@ export const saleDetails = [
     SaleDetail_productId: 10,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 28.75,
+    SaleDetail_total: 28.75,
   },
   {
     SaleDetail_id: 58,
@@ -404,6 +461,7 @@ export const saleDetails = [
     SaleDetail_productId: 70,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 24.99,
+    SaleDetail_total: 49.98,
   },
   {
     SaleDetail_id: 59,
@@ -411,6 +469,7 @@ export const saleDetails = [
     SaleDetail_productId: 2,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 23.49,
+    SaleDetail_total: 70.47,
   },
   {
     SaleDetail_id: 60,
@@ -418,6 +477,7 @@ export const saleDetails = [
     SaleDetail_productId: 61,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 34.99,
+    SaleDetail_total: 139.96,
   },
   {
     SaleDetail_id: 61,
@@ -425,6 +485,7 @@ export const saleDetails = [
     SaleDetail_productId: 49,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 30.99,
+    SaleDetail_total: 61.98,
   },
   {
     SaleDetail_id: 62,
@@ -432,6 +493,7 @@ export const saleDetails = [
     SaleDetail_productId: 7,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 22.99,
+    SaleDetail_total: 68.97,
   },
   {
     SaleDetail_id: 63,
@@ -439,6 +501,7 @@ export const saleDetails = [
     SaleDetail_productId: 29,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 26.5,
+    SaleDetail_total: 26.5,
   },
   {
     SaleDetail_id: 64,
@@ -446,6 +509,7 @@ export const saleDetails = [
     SaleDetail_productId: 9,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 32.0,
+    SaleDetail_total: 64.0,
   },
   {
     SaleDetail_id: 65,
@@ -453,6 +517,7 @@ export const saleDetails = [
     SaleDetail_productId: 41,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 27.99,
+    SaleDetail_total: 27.99,
   },
   {
     SaleDetail_id: 66,
@@ -460,6 +525,7 @@ export const saleDetails = [
     SaleDetail_productId: 21,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 25.0,
+    SaleDetail_total: 75.0,
   },
   {
     SaleDetail_id: 67,
@@ -467,6 +533,7 @@ export const saleDetails = [
     SaleDetail_productId: 4,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 19.99,
+    SaleDetail_total: 99.94999999999999,
   },
   {
     SaleDetail_id: 68,
@@ -474,6 +541,7 @@ export const saleDetails = [
     SaleDetail_productId: 50,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 17.99,
+    SaleDetail_total: 71.95999999999999,
   },
   {
     SaleDetail_id: 69,
@@ -481,6 +549,7 @@ export const saleDetails = [
     SaleDetail_productId: 32,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 33.0,
+    SaleDetail_total: 66.0,
   },
   {
     SaleDetail_id: 70,
@@ -488,6 +557,7 @@ export const saleDetails = [
     SaleDetail_productId: 45,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 28.5,
+    SaleDetail_total: 28.5,
   },
   {
     SaleDetail_id: 71,
@@ -495,6 +565,7 @@ export const saleDetails = [
     SaleDetail_productId: 57,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 35.5,
+    SaleDetail_total: 71.0,
   },
   {
     SaleDetail_id: 72,
@@ -502,6 +573,7 @@ export const saleDetails = [
     SaleDetail_productId: 33,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 18.0,
+    SaleDetail_total: 54.0,
   },
   {
     SaleDetail_id: 73,
@@ -509,6 +581,7 @@ export const saleDetails = [
     SaleDetail_productId: 68,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 25.99,
+    SaleDetail_total: 25.99,
   },
   {
     SaleDetail_id: 74,
@@ -516,6 +589,7 @@ export const saleDetails = [
     SaleDetail_productId: 54,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 23.75,
+    SaleDetail_total: 118.75,
   },
   {
     SaleDetail_id: 75,
@@ -523,6 +597,7 @@ export const saleDetails = [
     SaleDetail_productId: 66,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 21.99,
+    SaleDetail_total: 87.95999999999999,
   },
   {
     SaleDetail_id: 76,
@@ -530,6 +605,7 @@ export const saleDetails = [
     SaleDetail_productId: 12,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 29.5,
+    SaleDetail_total: 59.0,
   },
   {
     SaleDetail_id: 77,
@@ -537,6 +613,7 @@ export const saleDetails = [
     SaleDetail_productId: 15,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 24.0,
+    SaleDetail_total: 72.0,
   },
   {
     SaleDetail_id: 78,
@@ -544,6 +621,7 @@ export const saleDetails = [
     SaleDetail_productId: 64,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 31.99,
+    SaleDetail_total: 31.99,
   },
   {
     SaleDetail_id: 79,
@@ -551,6 +629,7 @@ export const saleDetails = [
     SaleDetail_productId: 25,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 22.5,
+    SaleDetail_total: 90.0,
   },
   {
     SaleDetail_id: 80,
@@ -558,6 +637,7 @@ export const saleDetails = [
     SaleDetail_productId: 47,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 34.75,
+    SaleDetail_total: 34.75,
   },
   {
     SaleDetail_id: 81,
@@ -565,6 +645,7 @@ export const saleDetails = [
     SaleDetail_productId: 13,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 20.5,
+    SaleDetail_total: 61.5,
   },
   {
     SaleDetail_id: 82,
@@ -572,6 +653,7 @@ export const saleDetails = [
     SaleDetail_productId: 31,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 30.99,
+    SaleDetail_total: 61.98,
   },
   {
     SaleDetail_id: 83,
@@ -579,6 +661,7 @@ export const saleDetails = [
     SaleDetail_productId: 42,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 21.5,
+    SaleDetail_total: 107.5,
   },
   {
     SaleDetail_id: 84,
@@ -586,6 +669,7 @@ export const saleDetails = [
     SaleDetail_productId: 26,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 33.0,
+    SaleDetail_total: 132.0,
   },
   {
     SaleDetail_id: 85,
@@ -593,6 +677,7 @@ export const saleDetails = [
     SaleDetail_productId: 67,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 19.99,
+    SaleDetail_total: 39.98,
   },
   {
     SaleDetail_id: 86,
@@ -600,6 +685,7 @@ export const saleDetails = [
     SaleDetail_productId: 43,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 22.75,
+    SaleDetail_total: 68.25,
   },
   {
     SaleDetail_id: 87,
@@ -607,6 +693,7 @@ export const saleDetails = [
     SaleDetail_productId: 16,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 27.5,
+    SaleDetail_total: 27.5,
   },
   {
     SaleDetail_id: 88,
@@ -614,6 +701,7 @@ export const saleDetails = [
     SaleDetail_productId: 53,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 32.0,
+    SaleDetail_total: 64.0,
   },
   {
     SaleDetail_id: 89,
@@ -621,6 +709,7 @@ export const saleDetails = [
     SaleDetail_productId: 11,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 26.75,
+    SaleDetail_total: 107.0,
   },
   {
     SaleDetail_id: 90,
@@ -628,6 +717,7 @@ export const saleDetails = [
     SaleDetail_productId: 24,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 29.99,
+    SaleDetail_total: 149.95,
   },
   {
     SaleDetail_id: 91,
@@ -635,6 +725,7 @@ export const saleDetails = [
     SaleDetail_productId: 56,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 18.0,
+    SaleDetail_total: 36.0,
   },
   {
     SaleDetail_id: 92,
@@ -642,6 +733,7 @@ export const saleDetails = [
     SaleDetail_productId: 65,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 31.5,
+    SaleDetail_total: 31.5,
   },
   {
     SaleDetail_id: 93,
@@ -649,6 +741,7 @@ export const saleDetails = [
     SaleDetail_productId: 30,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 34.99,
+    SaleDetail_total: 104.97,
   },
   {
     SaleDetail_id: 94,
@@ -656,6 +749,7 @@ export const saleDetails = [
     SaleDetail_productId: 35,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 28.0,
+    SaleDetail_total: 28.0,
   },
   {
     SaleDetail_id: 95,
@@ -663,6 +757,7 @@ export const saleDetails = [
     SaleDetail_productId: 22,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 21.0,
+    SaleDetail_total: 42.0,
   },
   {
     SaleDetail_id: 96,
@@ -670,6 +765,7 @@ export const saleDetails = [
     SaleDetail_productId: 46,
     SaleDetail_quantity: 4,
     SaleDetail_unitPrice: 27.99,
+    SaleDetail_total: 111.96,
   },
   {
     SaleDetail_id: 97,
@@ -677,6 +773,7 @@ export const saleDetails = [
     SaleDetail_productId: 55,
     SaleDetail_quantity: 5,
     SaleDetail_unitPrice: 23.5,
+    SaleDetail_total: 117.5,
   },
   {
     SaleDetail_id: 98,
@@ -684,6 +781,7 @@ export const saleDetails = [
     SaleDetail_productId: 63,
     SaleDetail_quantity: 2,
     SaleDetail_unitPrice: 25.99,
+    SaleDetail_total: 51.98,
   },
   {
     SaleDetail_id: 99,
@@ -691,6 +789,7 @@ export const saleDetails = [
     SaleDetail_productId: 37,
     SaleDetail_quantity: 1,
     SaleDetail_unitPrice: 33.75,
+    SaleDetail_total: 33.75,
   },
   {
     SaleDetail_id: 100,
@@ -698,5 +797,6 @@ export const saleDetails = [
     SaleDetail_productId: 40,
     SaleDetail_quantity: 3,
     SaleDetail_unitPrice: 22.5,
+    SaleDetail_total: 67.5,
   },
 ];

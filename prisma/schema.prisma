@@ -73,19 +73,51 @@ model Supplier {
   User                      User       @relation(fields: [Supplier_userId], references: [User_id])
 }
 
+model Purchase {
+  Purchase_id            Int              @id @default(autoincrement())
+  Purchase_description   String
+  Purchase_date          DateTime         @default(now())
+  Purchase_totalAmount   Decimal          @default(0)
+  Purchase_userId        Int
+  Purchase_supplierId    Int
+  Purchase_paymentMethod String
+  Purchase_dueDate       DateTime
+  Purchase_close         Boolean          @default(false)
+  User                   User             @relation(fields: [Purchase_userId], references: [User_id])
+  Supplier               Supplier         @relation(fields: [Purchase_supplierId], references: [Supplier_id])
+  ExpenseSummary         ExpenseSummary?
+  Product                Product[]
+  PurchaseDetail         PurchaseDetail[]
+}
+
 model Product {
-  Product_id           Int           @id @default(autoincrement())
+  Product_id           Int              @id @default(autoincrement())
   Product_ref          String
   Product_name         String
   Product_description  String
   Product_cost         Decimal
-  Product_price        Decimal @default(0)
-  Product_stockQty     Int
-  Product_availability Boolean
-  Product_location     Location      @default(UNRECEIVED)
+  Product_qty          Int
+  Product_price        Decimal          @default(0)
+  Product_availability Boolean          @default(false)
+  Product_location     Location         @default(UNRECEIVED)
   Product_purchaseId   Int
   SaleDetails          SaleDetails[]
-  purchase             Purchase      @relation(fields: [Product_purchaseId], references: [Purchase_id])
+  purchase             Purchase         @relation(fields: [Product_purchaseId], references: [Purchase_id])
+  PurchaseDetail       PurchaseDetail[]
+}
+
+model PurchaseDetail {
+  PurchDet_id             Int      @id @default(autoincrement())
+  PurchDet_purchaseId     Int
+  PurchDet_productId      Int
+  PurchDet_qtyOrdered     Int
+  PurchDet_qtyReceived    Int
+  PurchDet_qtyDiff        Int
+  PurchDet_locationStatus String
+  PurchDet_qtyDispatched  Int
+  PurchDet_qtyAvailable   Int
+  Purchase                Purchase @relation(fields: [PurchDet_purchaseId], references: [Purchase_id])
+  Product                 Product  @relation(fields: [PurchDet_productId], references: [Product_id])
 }
 
 model Sale {
@@ -112,22 +144,6 @@ model SaleDetails {
   SaleDetail_total     Decimal
   Warranty             Warranty[]
   Devolution           Devolution[]
-}
-
-model Purchase {
-  Purchase_id            Int             @id @default(autoincrement())
-  Purchase_description   String
-  Purchase_date          DateTime        @default(now())
-  Purchase_totalAmount   Decimal         @default(0)
-  Purchase_userId        Int
-  Purchase_supplierId    Int
-  Purchase_paymentMethod String
-  Purchase_dueDate       DateTime
-  Purchase_close         Boolean         @default(false)
-  User                   User            @relation(fields: [Purchase_userId], references: [User_id])
-  Supplier               Supplier        @relation(fields: [Purchase_supplierId], references: [Supplier_id])
-  ExpenseSummary         ExpenseSummary?
-  Product                Product[]
 }
 
 model Warranty {
