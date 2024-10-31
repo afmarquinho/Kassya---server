@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import { prisma } from "../db";
+import { Decimal } from "@prisma/client/runtime/library";
 
 export const createPurchase = async (req: Request, res: Response) => {
   try {
@@ -47,6 +48,11 @@ export const updatePurchase = async (req: Request, res: Response) => {
 export const closePurchase = async (req: Request, res: Response) => {
   try {
     const purchaseId: number = Number(req.params.purchaseId);
+    const Purchase_totalAmount = req.body.total;
+
+    if (isNaN(Purchase_totalAmount)) {
+      throw new Error("El valor de totalAmount debe ser un número válido.");
+    }
 
     const updatedPurchase = await prisma.purchase.update({
       where: {
@@ -54,8 +60,10 @@ export const closePurchase = async (req: Request, res: Response) => {
       },
       data: {
         Purchase_close: true,
+        Purchase_totalAmount,
       },
     });
+
     res.status(200).json({ data: updatedPurchase });
   } catch (error) {
     console.error(error);
@@ -91,8 +99,20 @@ export const getPurchases = async (req: Request, res: Response) => {
             Supplier_name: true,
           },
         },
+        Product: {
+          select: {
+            Product_total: true,
+          },
+        },
       },
     });
+    purchases.forEach((purchase) => {
+      purchase.Purchase_totalAmount = purchase.Product.reduce(
+        (total, product) => total.plus(product.Product_total || new Decimal(0)),
+        new Decimal(0)
+      );
+    });
+
     res.status(200).json({ data: purchases });
   } catch (error) {
     console.error(error);

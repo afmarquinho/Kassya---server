@@ -97,7 +97,7 @@ model Product {
   Product_description  String
   Product_cost         Decimal
   Product_qty          Int
-  Product_price        Decimal          @default(0)
+  Product_total        Decimal    
   Product_availability Boolean          @default(false)
   Product_location     Location         @default(UNRECEIVED)
   Product_purchaseId   Int
@@ -179,3 +179,4 @@ model Devolution {
   Dev_date          DateTime    @default(now())
   SaleDetails       SaleDetails @relation(fields: [Dev_saleDetailsId], references: [SaleDetail_id])
 }
+

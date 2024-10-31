@@ -63,7 +63,7 @@ export const purchases = [
     Purchase_supplierId: 31,
     Purchase_paymentMethod: "Credit Card",
     Purchase_dueDate: "2024-02-28T05:00:00.000Z",
-    Purchase_close: true,
+    Purchase_close: false,
   },
   {
     Purchase_id: 1,

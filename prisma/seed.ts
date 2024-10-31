@@ -1,7 +1,7 @@
 import { prisma } from "../src/db";
 import { customers } from "./data/customers";
 import { devolutions } from "./data/devolutions";
-import { products } from "./data/products";
+//import { products } from "./data/products";
 import { purchases } from "./data/purchases";
 import { saleDetails } from "./data/saleDetails";
 import { sales } from "./data/sales";
